@@ -30,6 +30,8 @@ function diary(param) {
         <div class="box" style="--img: url('../img/4.jpg')"></div>
         <div class="box" style="--img: url('../img/5.jpg')"></div>
         <div class="box" style="--img: url('../img/6.jpg')"></div>
+        <div class="box" style="--img: url('../img/7.jpg')"></div>
+        <div class="box" style="--img: url('../img/8.jpg')"></div>
       </div>
       <div class="buttons">
         <span class="prev"><</span> <span class="next">></span> <span class="close">X</span>
