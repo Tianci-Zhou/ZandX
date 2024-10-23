@@ -15,6 +15,10 @@ function diary(param) {
       <div class="accordion-title">2024年10月15日</div>
       <div class="accordion-content">早上9：45，小徐同志，没有好好吃早饭，记录在册！</div>
     </div>
+    <div class="accordion-section">
+      <div class="accordion-title">2024年10月22日</div>
+      <div class="accordion-content">晚上9：51，小徐同志，态度极其恶劣，记录在册！（我会永远记住这沉重的一天）</div>
+    </div>
   </div>
    <div class="btn">点击关闭</div>
   `;
@@ -32,6 +36,7 @@ function diary(param) {
         <div class="box" style="--img: url('../img/6.jpg')"></div>
         <div class="box" style="--img: url('../img/7.jpg')"></div>
         <div class="box" style="--img: url('../img/8.jpg')"></div>
+        <div class="box" style="--img: url('../img/9.jpg')"></div>
       </div>
       <div class="buttons">
         <span class="prev"><</span> <span class="next">></span> <span class="close">X</span>
