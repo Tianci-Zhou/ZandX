@@ -66,10 +66,9 @@ body {
 }
 .pop_son {
   width: 6.86rem;
-  /* height: 90vh; */
   display: none; /* 默认隐藏弹窗 */
   position: fixed;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff; /* 白色背景 */
@@ -99,6 +98,8 @@ body {
 .accordion-content {
   display: none;
   padding: 20px;
+  font-size: 0.2rem;
+  line-height: 1.5;
 }
 .pop_son2 {
   width: 100vw;
