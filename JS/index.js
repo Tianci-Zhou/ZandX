@@ -68,7 +68,8 @@ function diary(param) {
       $("#pop_son2").hide();
     });
   } else if (param == "视频") {
-    $(".modal-content").html(`我是${param}`);
+    $("#pop_rule3").show();
+    $("#pop_son3").show();
   }
   $(".accordion-title").click(function () {
     // 先关闭所有的手风琴内容区域
@@ -79,5 +80,7 @@ function diary(param) {
   $(".btn").click(function () {
     $("#pop_rule").hide();
     $("#pop_son").hide();
+    $("#pop_rule3").hide();
+    $("#pop_son3").hide();
   });
 }
